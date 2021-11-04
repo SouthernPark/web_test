@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Front End validation form</title>
+</head>
+
+<body>
+    <h1>
+        VAlidation Form
+    </h1>
+
+    <p>
+    <form action="/somewhere">
+        <p>
+            <label for="first">Enter first name </label>
+            <!-- input is required, fill before submit -->
+            <input type="text" name="first" id="first" required>
+        </p>
+
+        <p>
+            <label for="username">Username:</label>
+            <input type="username" name="username" id="uername" minlength="5" maxlength="20" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+
+        <p>
+            <button>Submmit</button>
+        </p>
+    </form>
+    </p>
+
+</body>
+
+</html>

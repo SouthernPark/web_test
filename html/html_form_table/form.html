@@ -58,6 +58,47 @@
         <button>Watch youtube</button>
     </form>
 
+    <form action="/somewhere">
+        <label for="agree"> I agree with everything </label>
+        <input type="checkbox" id="agree">
+        <p>
+            <label for="xs">XS:</label>
+            <label for="L">L:</label>
+            <label for="XL">XL:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <input type="radio" name="size" id="L" value="L">
+            <input type="radio" name="size" id="XL" value="XL">
+            <br>
+            <button>Submmit</button>
+        </p>
+
+        <p>
+            <label for="something">Please select something:</label>
+            <select name="something" id="something">
+                <option value="fish">Fish</option>
+                <option value="water">water</option>
+                <option value="cup">cup</option>
+            </select>
+        <p>
+            <label for="volume">Select Volume:</label>
+            <input type="range" name="volume" min="1" max="10" id="volume">
+        </p>
+
+        <p>
+            <label for="num">Number:</label>
+            <input type="number" name="num" id="num" min="1" max="10">
+        </p>
+
+        <p>
+            <label for="text">Request:</label>
+            <br>
+            <textarea name="text" id="text" cols="40" rows="10" placeholder="Input your request"></textarea>
+        </p>
+
+        </p>
+
+    </form>
+
 </body>
 
 </html>
